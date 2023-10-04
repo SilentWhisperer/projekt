@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  margin-top: 20px !important;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 3px;
+  border-bottom: 3px solid #93a69b;
+  border-top: 3px solid #2f553f;
+  border-left: 3px solid #2f553f;
+  border-right: 3px solid #2f553f;
+  background-color: #f5f7f6;
+}
+.navbar h1 {
+  color: #2f553f;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #2f553f;
+}
+.content {
+  max-width: 1200px;
+  margin-top: 20px !important;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 3px;
+  border-left: 3px solid #2f553f;
+  border-right: 3px solid #2f553f;
+  border-bottom: 3px solid #2f553f;
+  border-top: 3px solid #93a69b;
+  background-color: #f5f7f6;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-color: rgba(236, 239, 237, 0.5);
+  border-bottom: 1px solid #ecefed;
+  border-radius: 3px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(47,70,57,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #2f553f;
+  margin-bottom: 8px;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #2f553f;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #2f553f;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #2f553f;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #2f553f;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
